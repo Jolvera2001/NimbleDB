@@ -27,6 +27,8 @@ flowchart TD
     
     DataManager--Returns result to client ---User
 ```
+>NOTE: Because this is an embedded database, we also need an io writer/reader
+
 1. Sends request (Create, Read, Update, Delete)
 2. Processes request
 3. Write data to be marshalled OR read data to be unmarshalled and sent back to data manager for client
@@ -37,6 +39,7 @@ flowchart TD
 9. returns result to client
 
 regarding the index manager
+
 
 >if writing
 >1. after the new blocks are added to the storage layer, it will update the index(s) afterwards
