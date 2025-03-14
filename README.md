@@ -6,10 +6,20 @@ Why do I want to make a database that does all of that? Just because I'm bored a
 
 ## Version 0.1.0 - Core Engine
 - [ ] block
+  - [ ] interface
+  - [ ] implementation
 - [ ] record
+  - [ ] interface
+  - [ ] implementation
 - [ ] serializer (protobuf)
+  - [ ] interface
+  - [ ] implementation
 - [ ] index (skip list)
+  - [ ] interface
+  - [ ] implementation
 - [ ] minimal api
+  - [ ] definition
+  - [ ] implementation
 
 ## Issues and Edgecases
 - the nature of protobuf forces us to be wary of schema changes and type changes for a message
