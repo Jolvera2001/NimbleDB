@@ -14,7 +14,7 @@ Why do I want to make a database that does all of that? Just because I'm bored a
 - [ ] serializer (protobuf)
   - [ ] interface
   - [ ] implementation
-- [ ] index (skip list)
+- [ ] index
   - [ ] interface
   - [ ] implementation
 - [ ] minimal api
