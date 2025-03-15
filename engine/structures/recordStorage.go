@@ -1,9 +1,9 @@
 package structures
 
-// IRecordStorage provides methods for storing and retrieving variable
+// RecordStorage provides methods for storing and retrieving variable
 // sized records. It abstracts the underlying block storage, allowing the
 // database to work with logical records rather than physical blocks
-type IRecordStorage interface {
+type RecordStorage interface {
 	// Update updates a record
 	Update(recordId uint, data []byte) error
 

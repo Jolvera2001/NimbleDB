@@ -1,7 +1,7 @@
 package structures
 
-// IBlockStorage represents a container that manages blocks
-type IBlockStorage interface {
+// BlockStorage represents a container that manages blocks
+type BlockStorage interface {
 	// BlockContentSize returns the number of bytes
 	// of custom data per block that this storage can handle
 	BlockContentSize() int
@@ -15,9 +15,9 @@ type IBlockStorage interface {
 	BlockSize() int
 
 	// Find finds a block by its id
-	Find(blockId uint32) (IBlock, error)
+	Find(blockId uint32) (Block, error)
 
 	// CreateNew allocates a new block
 	// extends the length of underlying storage
-	CreateNew() (IBlock, error)
+	CreateNew() (Block, error)
 }
