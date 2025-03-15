@@ -1,8 +1,8 @@
 package structures
 
-// Block represents a storage container for data 
+// Block represents a storage container for data
 type Block interface {
-	// ID returns the unique identifier of the bloc
+	// ID returns the unique identifier of the block
 	ID() uint32
 
 	// GetHeader retrieves the value of a header field
